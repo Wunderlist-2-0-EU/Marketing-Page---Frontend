@@ -181,15 +181,8 @@ img {
   background-color: #464747;
   color: #F7FAFC;
 }
-.navigation-area .logo {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-}
-.navigation-area .checkbox-img {
-  width: 30px;
-  height: 30px;
-  padding: 1rem;
+.navigation-area .headerNav a {
+  padding: 2rem;
 }
 #showcase {
   height: 300px;
