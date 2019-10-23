@@ -164,7 +164,6 @@ img {
   width: 100%;
   background: #00B5D8;
   color: white;
-  border: 4px solid green;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -204,14 +203,19 @@ img {
   height: 0;
 }
 .organise-life-then-go-enjoy-it-section {
-  border: 3px solid grey;
   display: flex;
   margin: 0 auto;
+  justify-content: center;
 }
 #organise-life-then-go-enjoy-it-title-and-text-and-button {
   flex-direction: column;
-  border: 4px solid green;
   margin: auto 0;
+  margin-left: 6rem;
+  margin-right: 2rem;
+  width: 40%;
+}
+.main-header-wunderlist-app {
+  padding: 2rem;
 }
 #organise-life-then-go-enjoy-it-title {
   font-family: 'Open Sans', sans-serif;
@@ -223,9 +227,7 @@ img {
   font-size: 3rem;
 }
 #organise-life-then-go-enjoy-it-text {
-  width: 50%;
-  margin-left: 7rem;
-  margin-right: 10rem;
+  width: 80%;
 }
 #getting-started-button-top {
   background-color: #00B5D8;
@@ -239,63 +241,84 @@ img {
   border-radius: 1rem;
 }
 #wunderlist-is-not-just-another-to-do-list-app-section {
-  border: 4px solid blue;
+  padding: 2rem;
 }
 #wunderlist-is-not-just-another-to-do-list-app-title {
-  border: 4px solid blue;
   text-align: center;
+  padding: top 2rem;
 }
-#wunderlist-is-not-just-another-to-do-list-app-text {
-  width: 50%;
+#wunderlist-is-not-just-another-to-do-list-app-text-1 {
+  width: 40%;
   margin: 0 auto;
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+}
+#wunderlist-is-not-just-another-to-do-list-app-text-2 {
+  width: 40%;
+  margin: 0 auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+#wunderlist-is-not-just-another-to-do-list-app-text-3 {
+  width: 40%;
+  margin: 0 auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 .organize-everything-in-life-section {
-  border: 4px solid orange;
   display: flex;
+  padding-bottom: 4rem;
+  justify-content: center;
 }
 #organize-everything-in-life-title-and-text {
-  border: 2px solid turquoise;
   margin: auto 0;
+  margin-left: 3rem;
+  width: 50%;
 }
 .get-reminded-anytime-anywhere-section {
-  border: 4px solid purple;
   display: flex;
   flex-direction: row-reverse;
+  justify-content: center;
 }
 #get-reminded-anytime-anywhere-title-and-text {
-  border: 2px solid turquoise;
   margin: auto 0;
+  margin-right: 2rem;
+  width: 50%;
 }
 .flexible-calendar-views-section {
-  border: 4px solid purple;
   display: flex;
-  flex-direction: row-reverse;
+  flex-direction: row;
+  justify-content: center;
 }
 #flexible-calendar-views-title-and-text {
-  border: 2px solid turquoise;
   margin: auto 0;
+  margin-left: 3rem;
+  width: 70%;
 }
 .collaborating-with-others-section {
-  border: 4px solid purple;
   display: flex;
   flex-direction: row-reverse;
+  justify-content: center;
 }
 #collaborating-with-others-title-and-text {
-  border: 2px solid turquoise;
   margin: auto 0;
+  margin-left: 2rem;
+  margin-right: 2rem;
+  width: 50%;
 }
 .sync-across-multiple-platforms-section {
-  border: 4px solid purple;
   display: flex;
   flex-direction: column;
 }
 #sync-across-multiple-platforms-title-and-text {
-  border: 2px solid turquoise;
   margin: 0 auto;
   text-align: center;
 }
+.sync-across-multiple-platforms-img {
+  padding: 2rem;
+  margin: 0 auto;
+}
 .ready-to-be-more-productive-section {
-  border: 4px solid green;
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -314,7 +337,10 @@ img {
   border-radius: 1rem;
 }
 #help-us-help-our-users-become-more-productive-section {
-  border: 3px solid green;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  justify-content: center;
 }
 #getting-started-button-top-about {
   background-color: #00B5D8;
@@ -326,40 +352,81 @@ img {
   display: inline-block;
   font-size: 16px;
   border-radius: 1rem;
+  width: 10%;
+  margin-left: 6rem;
+  margin-right: 2rem;
+  margin-bottom: 6rem;
 }
-#AT-WUNDERLIST-WE-ARE-DRIVEN-TO-DO-GOOD {
-  border: 3px solid green;
+#help-us-help-our-users-become-more-productive-title-and-text {
+  flex-direction: column;
+  margin: auto 0;
+  margin-left: 6rem;
+  margin-right: 2rem;
+  width: 40%;
+  padding-top: 6rem;
 }
 #AT-WUNDERLIST-WE-ARE-DRIVEN-TO-DO-GOOD-title {
-  border: 3px solid green;
   text-align: center;
 }
-#AT-WUNDERLIST-WE-ARE-DRIVEN-TO-DO-GOOD-text {
-  border: 3px solid green;
-  width: 50%;
+#AT-WUNDERLIST-WE-ARE-DRIVEN-TO-DO-GOOD-text-1 {
+  width: 40%;
   margin: 0 auto;
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+}
+#AT-WUNDERLIST-WE-ARE-DRIVEN-TO-DO-GOOD-text-2 {
+  width: 40%;
+  margin: 0 auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+#AT-WUNDERLIST-WE-ARE-DRIVEN-TO-DO-GOOD-text-3 {
+  width: 40%;
+  margin: 0 auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+#AT-WUNDERLIST-WE-ARE-DRIVEN-TO-DO-GOOD-text-4 {
+  width: 40%;
+  margin: 0 auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+#AT-WUNDERLIST-WE-ARE-DRIVEN-TO-DO-GOOD-text-5 {
+  width: 40%;
+  margin-top: 0px;
+  margin-right: auto;
+  margin-bottom: 2rem;
+  margin-left: auto;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 #our-values-section {
-  border: 9px solid black;
+  margin-bottom: 5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 #our-values-title {
   text-align: center;
-  border: 2px solid blue;
+  margin-bottom: 5rem;
 }
 #the-three-values {
-  border: 3px solid green;
   display: flex;
   flex-direction: row;
 }
 .meet-the-team-section {
-  border: 9px solid black;
+  border: 3px solid green;
+  margin-bottom: 5rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 .meet-the-team-title {
   text-align: center;
-  border: 2px solid blue;
 }
 .team-members {
-  border: 3px solid green;
   display: flex;
   flex-direction: row;
+}
+.team-members-Abel {
+  border: 3px solid green;
 }
