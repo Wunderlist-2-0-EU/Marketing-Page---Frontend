@@ -181,12 +181,24 @@ img {
   background-color: #464747;
   color: #F7FAFC;
 }
+@media (max-width: 500px) {
+  .navigation-area {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+}
 .navigation-area .headerNav a {
   padding: 2rem;
 }
 #showcase {
   height: 300px;
   margin-bottom: 3rem;
+}
+@media (max-width: 500px) {
+  #showcase {
+    height: 600px;
+  }
 }
 #showcase h1 {
   font-size: 50px;
@@ -254,10 +266,25 @@ img {
   margin-right: 200px;
   margin-bottom: 4rem;
 }
+@media (max-width: 500px) {
+  .features {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+}
 .features .chkbox-icon {
   width: 100px;
   height: 100px;
-  padding-bottom: 1rem;
+  padding-bottom: 1.5rem;
+  padding-top: 1rem;
+}
+@media (max-width: 500px) {
+  .features .chkbox-icon {
+    width: 150px;
+    height: 150px;
+  }
 }
 .meet-the-team {
   display: flex;

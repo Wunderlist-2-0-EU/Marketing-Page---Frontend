@@ -1,6 +1,10 @@
 #showcase {
     height: 300px;
     margin-bottom: 3rem;
+
+    @media @mobile {
+        height: 600px;
+    }
 }
 
 #showcase h1 {
@@ -25,6 +29,10 @@
     animation-name: content;
     animation-duration: 3s;
     animation-fill-mode: forwards;
+
+    @media @mobile {
+       
+    }
 }
 
 @keyframes content {
@@ -66,9 +74,22 @@
     margin-right: 200px;
     margin-bottom: 4rem;
 
+    @media @mobile {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+    }
+
     .chkbox-icon{
         width: 100px;
         height: 100px;
-        padding-bottom: 1rem;
+        padding-bottom: 1.5rem;
+        padding-top: 1rem;
+
+        @media @mobile {
+           width: 150px;
+           height: 150px;
+        }
     }
 }
