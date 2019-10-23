@@ -135,6 +135,7 @@ html {
 html,
 body {
   font-family: sans-serif;
+  color: #F7FAFC;
 }
 h1,
 h2,
@@ -142,6 +143,7 @@ h3,
 h4,
 h5 {
   font-family: 'Oswald', sans-serif;
+  color: #F7FAFC;
 }
 h1 {
   font-size: 4rem;
@@ -164,10 +166,27 @@ img {
   height: auto;
 }
 .container {
-  max-width: 800px;
   width: 100%;
   margin: 0 auto;
 }
+.navigation-area {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem;
+  background-color: #464747;
+  color: #F7FAFC;
+}
+.navigation-area .logo {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.navigation-area .checkbox-img {
+  width: 30px;
+  height: 30px;
+  padding: 1rem;
+}
 body {
-  background-color: #00B5D8;
+  background-color: #0987A0;
 }
