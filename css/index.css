@@ -168,6 +168,7 @@ img {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  align-items: center;
 }
 @media (max-width: 500px) {
   .navigation {
@@ -175,21 +176,32 @@ img {
   }
 }
 .navigation .header-logo {
-  border: 3px solid red;
-  font-family: Open Sans;
+  font-family: 'Open Sans', sans-serif;
   font-size: 24px;
   font-style: normal;
   font-variant: normal;
   font-weight: 700;
   line-height: 26.4px;
+  align-content: center;
 }
 .navigation .header-logo-and-img {
   display: flex;
-  flex-direction: row-reverse;
-  border: 4px solid orange;
+  flex-direction: row;
+  align-items: center;
+}
+.navigation .main-header-wunderlist-app {
+  margin: 0;
+  padding: 0;
 }
 .navigation .wunderlist-tick {
   padding: 0px;
+  width: 50%;
+}
+.navigation #figure {
+  margin: 0;
+  padding: 0;
+  width: 0;
+  height: 0;
 }
 .organise-life-then-go-enjoy-it-section {
   border: 3px solid grey;
@@ -202,15 +214,18 @@ img {
   margin: auto 0;
 }
 #organise-life-then-go-enjoy-it-title {
-  border: 3px solid purple;
   font-family: 'Open Sans', sans-serif;
+  padding-bottom: 0;
 }
-.blueText {
+.blueTextBold {
   color: #00B5D8;
-  font-weight: bold;
+  font-weight: bolder;
+  font-size: 3rem;
 }
 #organise-life-then-go-enjoy-it-text {
-  border: 3px solid green;
+  width: 50%;
+  margin-left: 7rem;
+  margin-right: 10rem;
 }
 #getting-started-button-top {
   background-color: #00B5D8;
@@ -221,6 +236,7 @@ img {
   text-decoration: none;
   display: inline-block;
   font-size: 16px;
+  border-radius: 1rem;
 }
 #wunderlist-is-not-just-another-to-do-list-app-section {
   border: 4px solid blue;
@@ -295,4 +311,55 @@ img {
   display: inline-block;
   font-size: 16px;
   margin: 0 auto;
+  border-radius: 1rem;
+}
+#help-us-help-our-users-become-more-productive-section {
+  border: 3px solid green;
+}
+#getting-started-button-top-about {
+  background-color: #00B5D8;
+  color: white;
+  border: none;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 1rem;
+}
+#AT-WUNDERLIST-WE-ARE-DRIVEN-TO-DO-GOOD {
+  border: 3px solid green;
+}
+#AT-WUNDERLIST-WE-ARE-DRIVEN-TO-DO-GOOD-title {
+  border: 3px solid green;
+  text-align: center;
+}
+#AT-WUNDERLIST-WE-ARE-DRIVEN-TO-DO-GOOD-text {
+  border: 3px solid green;
+  width: 50%;
+  margin: 0 auto;
+}
+#our-values-section {
+  border: 9px solid black;
+}
+#our-values-title {
+  text-align: center;
+  border: 2px solid blue;
+}
+#the-three-values {
+  border: 3px solid green;
+  display: flex;
+  flex-direction: row;
+}
+.meet-the-team-section {
+  border: 9px solid black;
+}
+.meet-the-team-title {
+  text-align: center;
+  border: 2px solid blue;
+}
+.team-members {
+  border: 3px solid green;
+  display: flex;
+  flex-direction: row;
 }
