@@ -161,6 +161,10 @@ p {
   font-size: 1.6rem;
   padding-bottom: 10px;
 }
+a {
+  color: #F7FAFC;
+  font-size: 1.6rem;
+}
 img {
   max-width: 100%;
   height: auto;
@@ -189,6 +193,7 @@ img {
 }
 #showcase {
   height: 300px;
+  margin-bottom: 3rem;
 }
 #showcase h1 {
   font-size: 50px;
@@ -225,21 +230,19 @@ img {
 }
 .btn {
   display: inline-block;
+  background-color: #F56565;
   color: white;
   text-decoration: none;
-  padding: 1rem 2rem;
+  padding: 2rem 5rem 2rem 5rem;
   border: 1px solid white;
   margin-top: 40px;
   opacity: 0;
   animation-name: btn;
   animation-duration: 3s;
-  animation-delay: 3s;
+  animation-delay: 1s;
   animation-fill-mode: forwards;
   transition-property: transform;
   transition-duration: 1s;
-}
-.btn:hover {
-  transform: rotateY(180deg);
 }
 @keyframes btn {
   0% {
@@ -248,6 +251,18 @@ img {
   100% {
     opacity: 1;
   }
+}
+.features {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10rem;
+  margin-left: 150px;
+  margin-right: 200px;
+}
+.features .chkbox-icon {
+  width: 100px;
+  height: 100px;
 }
 body {
   background-color: #0987A0;
