@@ -195,7 +195,7 @@ img {
   animation: heading;
   animation-duration: 3s;
   animation-fill-mode: forwards;
-  padding-bottom: 2rem;
+  padding-bottom: 2.5rem;
 }
 @keyframes heading {
   0% {
@@ -226,7 +226,7 @@ img {
   background-color: #F56565;
   color: white;
   text-decoration: none;
-  padding: 2rem 5rem 2rem 5rem;
+  padding: 2rem 8rem 2rem 8rem;
   border: 1px solid white;
   margin-top: 40px;
   opacity: 0;
@@ -252,10 +252,26 @@ img {
   margin-top: 10rem;
   margin-left: 150px;
   margin-right: 200px;
+  margin-bottom: 4rem;
 }
 .features .chkbox-icon {
   width: 100px;
   height: 100px;
+  padding-bottom: 1rem;
+}
+.meet-the-team {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+@media (max-width: 500px) {
+  .meet-the-team {
+    flex-direction: column;
+  }
+}
+.person-icon {
+  width: 200px;
+  height: 300px;
 }
 body {
   background-color: #0987A0;
