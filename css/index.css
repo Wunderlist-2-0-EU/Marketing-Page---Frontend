@@ -319,7 +319,6 @@ img {
 #flexible-calendar-views-title-and-text {
   margin: auto 0;
   margin-left: 3rem;
-  width: 70%;
 }
 .collaborating-with-others-section {
   display: flex;
@@ -449,7 +448,20 @@ img {
 #the-three-values {
   display: flex;
   flex-direction: row;
+  justify-content: center;
   justify-content: space-around;
+}
+#the-three-values-CREATE-DELIGHT {
+  width: 23%;
+  text-align: center;
+}
+#the-three-values-BE-INTENTIONAL {
+  width: 23%;
+  text-align: center;
+}
+#the-three-values-REMARKABLE-QUALITY {
+  width: 23%;
+  text-align: center;
 }
 .meet-the-team-section {
   margin-bottom: 5rem;
