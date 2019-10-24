@@ -3,7 +3,7 @@
     margin-bottom: 3rem;
 
     @media @mobile {
-        height: 600px;
+        height: 680px;
     }
 }
 
@@ -29,6 +29,13 @@
     animation-name: content;
     animation-duration: 3s;
     animation-fill-mode: forwards;
+
+    @media @mobile {
+        position: relative;
+        animation-name: mobile-content;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+    }
 }
 
 @keyframes content {
@@ -36,12 +43,11 @@
     100% {left: 350px;}
 }
 
-@media @mobile {
-    @keyframes content {
-        0% {left: -1000px;}
-        100% {left: 0;}
-    }
+@keyframes mobile-content {
+    0% {left: -1000px;}
+    100% {left: -25px;}
 }
+
 
 .checklist {
     display: flex;
@@ -74,10 +80,7 @@
     align-items: center;
 }
 
-@keyframes content {
-    0% {left: -1000px;}
-    100% {left: 350px;}
-}
+
 
 .btn {
     display: block;
@@ -103,9 +106,6 @@
             margin: 4rem 2rem 0 2rem;
         }
 }
-
-
-
 @keyframes btn {
     0% {opacity:0}
     100% {opacity:1}

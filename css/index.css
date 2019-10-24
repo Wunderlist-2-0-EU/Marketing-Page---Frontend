@@ -202,7 +202,7 @@ img {
 }
 @media (max-width: 500px) {
   #showcase {
-    height: 600px;
+    height: 680px;
   }
 }
 #showcase h1 {
@@ -230,6 +230,14 @@ img {
   animation-duration: 3s;
   animation-fill-mode: forwards;
 }
+@media (max-width: 500px) {
+  #content {
+    position: relative;
+    animation-name: mobile-content;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+  }
+}
 @keyframes content {
   0% {
     left: -1000px;
@@ -238,14 +246,12 @@ img {
     left: 350px;
   }
 }
-@media (max-width: 500px) {
-  @keyframes content {
-    0% {
-      left: -1000px;
-    }
-    100% {
-      left: 0;
-    }
+@keyframes mobile-content {
+  0% {
+    left: -1000px;
+  }
+  100% {
+    left: -25px;
   }
 }
 .checklist {
@@ -274,14 +280,6 @@ img {
   padding-top: 2rem;
   justify-content: center;
   align-items: center;
-}
-@keyframes content {
-  0% {
-    left: -1000px;
-  }
-  100% {
-    left: 350px;
-  }
 }
 .btn {
   display: block;
