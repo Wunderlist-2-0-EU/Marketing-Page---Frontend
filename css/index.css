@@ -191,8 +191,13 @@ img {
 .navigation-area .headerNav a {
   padding: 2rem;
 }
+@media (max-width: 500px) {
+  .navigation-area .headerNav {
+    padding-top: 2rem;
+  }
+}
 #showcase {
-  height: 300px;
+  height: 600px;
   margin-bottom: 3rem;
 }
 @media (max-width: 500px) {
@@ -230,11 +235,58 @@ img {
     left: -1000px;
   }
   100% {
-    left: 0;
+    left: 350px;
+  }
+}
+@media (max-width: 500px) {
+  @keyframes content {
+    0% {
+      left: -1000px;
+    }
+    100% {
+      left: 0;
+    }
+  }
+}
+.checklist {
+  display: flex;
+  padding: 1.5rem;
+}
+.circle {
+  width: 80px;
+  height: 80px;
+  background: #00B5D8;
+  border-radius: 50%;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 3rem;
+  justify-content: center;
+  align-items: center;
+}
+.rectangle {
+  width: 300px;
+  height: 70px;
+  background: #00B5D8;
+  margin-left: 2rem;
+  border-radius: 15%;
+  font-size: 2rem;
+  text-align: center;
+  padding-top: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+@keyframes content {
+  0% {
+    left: -1000px;
+  }
+  100% {
+    left: 350px;
   }
 }
 .btn {
-  display: inline-block;
+  display: block;
+  margin-left: 300px;
+  margin-right: 300px;
   background-color: #F56565;
   color: white;
   text-decoration: none;
@@ -249,6 +301,12 @@ img {
   transition-property: transform;
   transition-duration: 1s;
 }
+@media (max-width: 500px) {
+  .btn {
+    display: block;
+    margin: 4rem 2rem 0 2rem;
+  }
+}
 @keyframes btn {
   0% {
     opacity: 0;
@@ -261,16 +319,17 @@ img {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin-top: 10rem;
-  margin-left: 150px;
-  margin-right: 200px;
+  margin-top: 5rem;
   margin-bottom: 4rem;
+  background-color: #00B5D8;
+  padding: 6rem;
 }
 @media (max-width: 500px) {
   .features {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 1rem;
     margin: 0 auto;
   }
 }
@@ -285,6 +344,15 @@ img {
     width: 150px;
     height: 150px;
   }
+}
+.footerNav {
+  align-items: center;
+  padding: 3rem;
+  background-color: #464747;
+  color: #F7FAFC;
+}
+.footerNav a {
+  padding: 2rem;
 }
 .meet-the-team {
   display: flex;

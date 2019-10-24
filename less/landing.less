@@ -1,5 +1,5 @@
 #showcase {
-    height: 300px;
+    height: 600px;
     margin-bottom: 3rem;
 
     @media @mobile {
@@ -29,19 +29,60 @@
     animation-name: content;
     animation-duration: 3s;
     animation-fill-mode: forwards;
-
-    @media @mobile {
-       
-    }
 }
 
 @keyframes content {
     0% {left: -1000px;}
-    100% {left: 0;}
+    100% {left: 350px;}
+}
+
+@media @mobile {
+    @keyframes content {
+        0% {left: -1000px;}
+        100% {left: 0;}
+    }
+}
+
+.checklist {
+    display: flex;
+    padding: 1.5rem;
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    background: @turquoise;
+    border-radius: 50%;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 3rem;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.rectangle {
+    width: 300px;
+    height: 70px;
+    background: @turquoise;
+    margin-left: 2rem;
+    border-radius: 15%;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+@keyframes content {
+    0% {left: -1000px;}
+    100% {left: 350px;}
 }
 
 .btn {
-    display: inline-block;
+    display: block;
+    margin-left: 300px;
+    margin-right: 300px;
     background-color: @red;
     color: white;
     text-decoration: none;
@@ -56,6 +97,11 @@
 
     transition-property: transform;
     transition-duration: 1s;
+
+        @media @mobile {
+            display: block;
+            margin: 4rem 2rem 0 2rem;
+        }
 }
 
 
@@ -69,17 +115,20 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 10rem;
-    margin-left: 150px;
-    margin-right: 200px;
+    margin-top: 5rem;
     margin-bottom: 4rem;
+    background-color: @turquoise;
+    padding: 6rem;
 
     @media @mobile {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        margin-top: 1rem;
         margin: 0 auto;
     }
+
+
 
     .chkbox-icon{
         width: 100px;
@@ -93,3 +142,14 @@
         }
     }
 }
+
+.footerNav {
+    align-items: center;
+    padding: 3rem;
+    background-color: @dark-grey;
+    color: @font-color;
+
+     a {
+        padding: 2rem;
+    }
+    }
