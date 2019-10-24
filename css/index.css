@@ -303,6 +303,8 @@ img {
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
+  background-color: rgba(211, 211, 211, 0.5);
+  padding: 18rem 2rem;
 }
 #get-reminded-anytime-anywhere-title-and-text {
   margin: auto 0;
@@ -323,6 +325,8 @@ img {
   display: flex;
   flex-direction: row-reverse;
   justify-content: center;
+  background-color: rgba(211, 211, 211, 0.5);
+  padding: 18rem 2rem;
 }
 #collaborating-with-others-title-and-text {
   margin: auto 0;
@@ -333,6 +337,7 @@ img {
 .sync-across-multiple-platforms-section {
   display: flex;
   flex-direction: column;
+  padding: 18rem 2rem;
 }
 #sync-across-multiple-platforms-title-and-text {
   margin: 0 auto;
@@ -347,6 +352,8 @@ img {
   flex-direction: column;
   margin: 0 auto;
   text-align: center;
+  background-color: rgba(211, 211, 211, 0.5);
+  padding: 18rem 2rem;
 }
 #getting-started-button-bottom {
   background-color: #00B5D8;
@@ -379,7 +386,7 @@ img {
   width: 20%;
   margin-left: 6rem;
   margin-right: 2rem;
-  margin-bottom: 6rem;
+  margin-bottom: 25rem;
 }
 #help-us-help-our-users-become-more-productive-title-and-text {
   flex-direction: column;
@@ -387,7 +394,11 @@ img {
   margin-left: 6rem;
   margin-right: 2rem;
   width: 40%;
-  padding-top: 6rem;
+  padding-top: 17rem;
+}
+#AT-WUNDERLIST-WE-ARE-DRIVEN-TO-DO-GOOD-section {
+  background-color: rgba(211, 211, 211, 0.5);
+  padding: 18rem 2rem;
 }
 #AT-WUNDERLIST-WE-ARE-DRIVEN-TO-DO-GOOD-title {
   text-align: center;
@@ -429,8 +440,7 @@ img {
   margin-bottom: 5rem;
   margin-left: 2rem;
   margin-right: 2rem;
-  display: flex;
-  justify-content: space-around;
+  padding: 18rem 2rem;
 }
 #our-values-title {
   text-align: center;
@@ -439,11 +449,14 @@ img {
 #the-three-values {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
 }
 .meet-the-team-section {
   margin-bottom: 5rem;
   margin-left: 2rem;
   margin-right: 2rem;
+  background-color: rgba(211, 211, 211, 0.5);
+  padding: 18rem 2rem;
 }
 .meet-the-team-title {
   text-align: center;
@@ -459,6 +472,8 @@ img {
 #what-are-you-waiting-for-section {
   display: flex;
   flex-direction: column;
+  background-color: rgba(211, 211, 211, 0.5);
+  padding: 18rem 2rem;
 }
 .sync-across-multiple-platforms-img {
   padding-left: 10%;
