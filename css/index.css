@@ -160,6 +160,29 @@ img {
   max-width: 100%;
   height: auto;
 }
+.header-nav {
+  width: 100%;
+  background: #00B5D8;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.header-nav img {
+  margin-left: 45%;
+}
+.header-nav a {
+  margin-right: 5%;
+  text-decoration: none;
+  color: white;
+  font-size: 2rem;
+}
+@media (max-width: 500px) {
+  .header-nav {
+    padding-bottom: 2rem;
+  }
+}
 .navigation {
   width: 100%;
   background: #00B5D8;
@@ -241,7 +264,8 @@ img {
   border-radius: 1rem;
 }
 #wunderlist-is-not-just-another-to-do-list-app-section {
-  padding: 2rem;
+  padding: 18rem 2rem;
+  background-color: rgba(211, 211, 211, 0.5);
 }
 #wunderlist-is-not-just-another-to-do-list-app-title {
   text-align: center;
@@ -352,7 +376,7 @@ img {
   display: inline-block;
   font-size: 16px;
   border-radius: 1rem;
-  width: 10%;
+  width: 20%;
   margin-left: 6rem;
   margin-right: 2rem;
   margin-bottom: 6rem;
@@ -405,6 +429,8 @@ img {
   margin-bottom: 5rem;
   margin-left: 2rem;
   margin-right: 2rem;
+  display: flex;
+  justify-content: space-around;
 }
 #our-values-title {
   text-align: center;
@@ -415,7 +441,6 @@ img {
   flex-direction: row;
 }
 .meet-the-team-section {
-  border: 3px solid green;
   margin-bottom: 5rem;
   margin-left: 2rem;
   margin-right: 2rem;
@@ -426,7 +451,25 @@ img {
 .team-members {
   display: flex;
   flex-direction: row;
+  justify-content: space-around;
 }
-.team-members-Abel {
-  border: 3px solid green;
+.me-black-and-white {
+  border-radius: 10%;
+}
+#what-are-you-waiting-for-section {
+  display: flex;
+  flex-direction: column;
+}
+.sync-across-multiple-platforms-img {
+  padding-left: 10%;
+  padding-right: 10%;
+  width: 100%;
+}
+.what-are-you-waiting-for-text-try-the-future-of-productivity {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+#what-are-you-waiting-for-text {
+  margin-top: 5rem;
 }
