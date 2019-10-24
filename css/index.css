@@ -368,19 +368,22 @@ img {
 .footerNav a {
   padding: 2rem;
 }
-.meet-the-team {
+.heading {
+  padding: 2rem;
+  margin: 1rem;
+}
+.profile-pics {
+  border-radius: 5%;
+}
+.photo-cards {
   display: flex;
+  flex-wrap: wrap;
+  padding: 2rem;
   justify-content: space-around;
+}
+#last-card {
+  justify-content: center;
   align-items: center;
-}
-@media (max-width: 500px) {
-  .meet-the-team {
-    flex-direction: column;
-  }
-}
-.person-icon {
-  width: 200px;
-  height: 300px;
 }
 body {
   background-color: #0987A0;
