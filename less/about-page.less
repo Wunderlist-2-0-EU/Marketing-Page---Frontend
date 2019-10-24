@@ -4,8 +4,6 @@ justify-content: space-evenly;
 }
 
 .team{
-    border: 1px solid black;
-    width: 100%;
     padding: 50px;
     display: flex;
     flex-wrap: wrap;
@@ -18,11 +16,45 @@ section{
     padding: 100px;
 }
 
+// .aboutSection{
+//     padding: 5rem;
+//     display: flex;
+//     flex-direction: column;
+//     align-content: center;
+//     justify-content: center;
+// }
+
 .aboutSection{
-    padding: 5rem;
     display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     align-content: center;
-    justify-content: center;
+    .UseFlexBox(column, space-between, center, center);
+}
+
+.valuesBox{
+    display: flex;
+    flex-direction: column;
+    h3{
+        font-size: 2rem;
+    }
+    p{
+        font-size: 1.5rem;
+    }
+}
+
+.getStartedButton{
+    text-decoration: none;
+    font-size: 2rem;
+    .buttonTemplate(2rem, 5rem , 12px, red, white, pointer);
+}
+
+.getStartedButton2{
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 50px;
+    justify-content: center;    
+    .buttonTemplate(2rem, 5rem , 12px, red, white, pointer);
 }
 
 .aboutButton{
@@ -61,4 +93,13 @@ section{
 
 .container{
     width: 100%;
+    max-width: 1000px;
+
+    @media @tabletView {
+        max-width: 100%;
+    }
+
+    @media @mobileView {
+        max-width: 100%;
+    }
 }
