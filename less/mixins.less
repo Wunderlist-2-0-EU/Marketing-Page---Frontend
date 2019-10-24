@@ -1,0 +1,16 @@
+.UseFlexBox(@direction, @justify, @align, @content){
+    display: flex;
+    flex-direction: @direction;
+    justify-content: @justify;
+    align-items: @align;
+    align-content: @content;
+}
+
+
+.buttonTemplate(@paddingLeftRight, @paddingUpDown , @borderRadius, @backgroundColor, @color, @cursorType) {
+    padding: @paddingLeftRight @paddingUpDown;
+    border-radius: @borderRadius;
+    background-color: @backgroundColor;
+    color: @color;
+    cursor: @cursorType;
+}

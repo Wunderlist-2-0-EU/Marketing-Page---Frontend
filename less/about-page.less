@@ -1,0 +1,64 @@
+.values{
+display: flex;
+justify-content: space-evenly;
+}
+
+.team{
+    border: 1px solid black;
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    @media @mobileView {
+        flex-direction: column;
+    }
+}
+
+section{
+    padding: 100px;
+}
+
+.aboutSection{
+    padding: 5rem;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.aboutButton{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    a{
+        color: white;
+        text-decoration: none;
+        justify-content: center;
+        align-content: center;
+        padding: 4rem;
+        font-size: 2rem;
+        width: 50%;
+    }
+
+    .buttonTemplate(1rem, 1rem , 12px, red, white, pointer);
+}
+
+nav{
+    background-color: @blueText;
+}
+
+header{
+    background-color: @blueText;
+}
+
+.valuesHeading{
+    color: @blueText;   
+}
+
+section{
+    border: none;
+    height: 50rem;
+}
+
+.container{
+    width: 100%;
+}
