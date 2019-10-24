@@ -465,13 +465,12 @@ img {
 }
 .meet-the-team-section {
   margin-bottom: 5rem;
-  margin-left: 2rem;
-  margin-right: 2rem;
   background-color: rgba(211, 211, 211, 0.5);
   padding: 18rem 2rem;
 }
 .meet-the-team-title {
   text-align: center;
+  padding-bottom: 5rem;
 }
 .team-members {
   display: flex;
@@ -480,6 +479,18 @@ img {
 }
 .me-black-and-white {
   border-radius: 10%;
+  height: 25rem;
+  width: 25rem;
+}
+.name {
+  text-align: center;
+  padding-top: 10%;
+}
+.job {
+  text-align: center;
+}
+.description {
+  text-align: center;
 }
 .meet-more-of-the-team-section {
   padding: 18rem 2rem;
