@@ -1,0 +1,181 @@
+#showcase {
+    height: 600px;
+    margin-bottom: 3rem;
+
+    @media @mobile {
+        height: 620px;
+    }
+}
+
+#showcase h1 {
+    font-size: 50px;
+    line-height: 1.3;
+    position: relative;
+    animation: heading;
+    animation-duration: 3s;
+    animation-fill-mode: forwards; 
+    padding-bottom: 2.5rem;   
+}
+
+@keyframes heading {
+    0% {top: -50px;}
+    100% {top: 50px;}
+}
+
+#content {
+    position: relative;
+    padding: 5rem 5rem 0 5rem;
+    text-align: center;
+    animation-name: content;
+    animation-duration: 3s;
+    animation-fill-mode: forwards;
+
+    @media @mobile {
+        position: relative;
+        animation-name: mobile-content;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+    }
+}
+
+@keyframes content {
+    0% {left: -1000px;}
+    100% {left: 350px;}
+}
+
+@keyframes mobile-content {
+    0% {left: -1000px;}
+    100% {left: -25px;}
+}
+
+
+.checklist {
+    display: flex;
+    padding: 1.5rem;
+}
+
+
+
+.circle {
+    width: 80px;
+    height: 80px;
+    background: @turquoise;
+    border-radius: 50%;
+    font-size: 4rem;
+    text-align: center;
+    padding-top: 3rem;
+    justify-content: center;
+    align-items: center;
+   }
+
+   :root {
+    --borderWidth: 7px;
+    --height: 60px;
+    --width: 30px;
+    --borderColor: @red;
+  }
+ 
+  
+  .check {
+    display: inline-block;
+    margin-left: -40px;
+    margin-bottom: 10px;
+    transform: rotate(45deg);
+    height: var(--height);
+    width: var(--width);
+    border-bottom: var(--borderWidth) solid var(--borderColor);
+    border-right: var(--borderWidth) solid var(--borderColor);
+  }
+
+.rectangle {
+    width: 300px;
+    height: 70px;
+    background: @turquoise;
+    margin-left: 4rem;
+    border-radius: 50px /50px;
+    font-size: 2rem;
+    text-align: center;
+    padding-top: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.btn {
+    display: block;
+    margin-left: 300px;
+    margin-right: 300px;
+    background-color: @red;
+    color: white;
+    text-decoration: none;
+    padding: 2rem 8rem 2rem 8rem;
+    border: 1px solid white;
+    margin-top: 40px;
+    opacity: 0;
+    animation-name: btn;
+    animation-duration: 3s;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+
+    transition-property: transform;
+    transition-duration: 1s;
+
+        @media @mobile {
+            display: block;
+            margin: 4rem 2rem 0 2rem;
+        }
+}
+@keyframes btn {
+    0% {opacity:0}
+    100% {opacity:1}
+}
+
+.marketing {
+    @media @mobile {
+        padding: 2rem;
+    }
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5rem;
+    margin-bottom: 4rem;
+    background-color: @turquoise;
+    padding: 6rem;
+
+    @media @mobile {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 1rem;
+        margin: 0 auto;
+    }
+
+
+
+    .chkbox-icon{
+        width: 100px;
+        height: 100px;
+        padding-bottom: 1.5rem;
+        padding-top: 1rem;
+
+        @media @mobile {
+           width: 150px;
+           height: 150px;
+        }
+    }
+}
+
+.footerNav {
+    align-items: center;
+    padding: 3rem;
+    background-color: @dark-grey;
+    color: @font-color;
+
+     a {
+        padding: 2rem;
+    }
+    }
