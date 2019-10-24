@@ -469,6 +469,9 @@ img {
 .me-black-and-white {
   border-radius: 10%;
 }
+.meet-more-of-the-team-section {
+  padding: 18rem 2rem;
+}
 #what-are-you-waiting-for-section {
   display: flex;
   flex-direction: column;
